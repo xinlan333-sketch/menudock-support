@@ -32,6 +32,23 @@ MenuDock does not upload it to the developer or third parties.
 MenuDock does not read documents, chat history, or other content
 inside the applications it launches.
 
+## Optional Tips and Apple Purchases
+
+Optional, repeatable tips are processed by Apple through StoreKit. A tip
+does not unlock features and is not a subscription. Apple handles payment
+and account information under its own privacy policy; MenuDock does not
+receive your payment card details or App Store account password.
+
+MenuDock uses Apple-verified transaction information to acknowledge a
+successful tip and complete the transaction. It saves only a local
+true/false acknowledgment preference, not receipts or a transaction history,
+and does not send transaction information to a developer-operated server.
+
+## Launch at Login
+
+If you enable launch at login, macOS manages the registration through its
+login item service. You can change it in MenuDock Settings or macOS settings.
+
 ## Custom Language Packs
 
 Custom language packs are read and stored locally.
@@ -39,8 +56,8 @@ MenuDock does not upload them.
 
 ## Managing Your Data
 
-You can remove application entries and change preferences in
-MenuDock settings. Removing an entry does not uninstall or quit
+You can remove entries in Manage Applications and change preferences in
+MenuDock Settings. Removing an entry does not uninstall or quit
 the corresponding application.
 
 Quitting MenuDock does not automatically delete saved application
